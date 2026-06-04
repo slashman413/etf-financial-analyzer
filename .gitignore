@@ -1,0 +1,18 @@
+# frontend
+node_modules/
+.next/
+
+# backend
+backend/.venv/
+backend/app/__pycache__/
+backend/cache/
+*.pyc
+
+# env secrets
+.env.local
+.env
+backend/.env
+
+# os
+.DS_Store
+Thumbs.db
