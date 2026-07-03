@@ -224,9 +224,10 @@ def analyze_trend(historical_data: list) -> dict:
     periods = [calculate_ratios(p) for p in historical_data]
     t.periods = len(periods)
 
-    # Extract key series
-    revenues = [_v(p, "marketCap", p.get("revenue")) for p in periods]
-    net_incomes = [_v(p, "netIncome") for p in periods]
+    # Extract key series. Revenue and net income are raw inputs (calculate_ratios
+    # does not emit them), so read them from historical_data, not the ratios dict.
+    revenues = [_v(p, "revenue") for p in historical_data]
+    net_incomes = [_v(p, "netIncome") for p in historical_data]
     margins = [_v(p, "netMargin") for p in periods]
     roes = [_v(p, "roe") for p in periods]
 

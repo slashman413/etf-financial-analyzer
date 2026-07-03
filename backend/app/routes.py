@@ -124,7 +124,8 @@ async def stock_detail(symbol: str):
         except Exception:
             pass
 
-    trend = analyze_trend(trend_reports)
+    # FMP returns statements newest-first; analyze_trend expects oldest-first.
+    trend = analyze_trend(list(reversed(trend_reports)))
 
     # Sentiment / insight text
     insights = _generate_insights(ratios, trend)
