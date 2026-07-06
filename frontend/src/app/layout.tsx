@@ -6,7 +6,7 @@ export function generateMetadata() {
 }
 
 const CTA_TWSE = "https://slashman413.github.io/twse-backtests/?utm_source=etf-analyzer&utm_medium=web&utm_campaign=etf-financial-analyzer";
-const CTA_SAAS = "https://slashman413.gumroad.com/l/saas-starter?utm_source=etf-analyzer&utm_medium=web&utm_campaign=etf-financial-analyzer";
+const CTA_SAAS = "https://slashmaster6.gumroad.com/l/kuvajr?utm_source=etf-analyzer&utm_medium=web&utm_campaign=etf-financial-analyzer";
 
 function PromoBar() {
   return (
