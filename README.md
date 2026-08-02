@@ -1,4 +1,7 @@
 # ETF Financial Analyzer
+> ## 🛍️ **ETF 儀表板 — 完整版**
+> 此 repo 為開源核心。完整版 **[ETF 儀表板 ($199) on Gumroad](https://slashmaster6.gumroad.com/l/etf-dashboard)** — 自動財報分析、評分系統、歷史回測與每日更新。
+
 
 自動抓取 ETF 成分股並進行財報分析與評分的網站。支援美股與台股 ETF。
 
