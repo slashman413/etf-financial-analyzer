@@ -1,6 +1,6 @@
 # ETF Financial Analyzer
 > ## 🛍️ **ETF 儀表板 — 完整版**
-> 此 repo 為開源核心。完整版 **[ETF 儀表板 ($199) on Gumroad](https://slashmaster6.gumroad.com/l/etf-dashboard)** — 自動財報分析、評分系統、歷史回測與每日更新。
+> 此 repo 為開源核心。完整版 **[ETF 儀表板 ($29) on Gumroad](https://slashmaster6.gumroad.com/l/etf-dashboard)** — 自動財報分析、評分系統、歷史回測與每日更新。
 
 
 自動抓取 ETF 成分股並進行財報分析與評分的網站。支援美股與台股 ETF。
@@ -149,3 +149,6 @@ SPY, QQQ, VTI, VOO, 0050.TW, 0056.TW
 | `FMP_API_KEY` | 否 | Financial Modeling Prep API key（留空則全用 yfinance） |
 | `SUPABASE_URL` | 否 | Supabase 專案 URL（留空不影響核心功能） |
 | `SUPABASE_KEY` | 否 | Supabase anon key（留空不影響核心功能） |
+
+### 🛒 相關產品
+- [ETF 儀表板 — 完整版 ($29)](https://slashmaster6.gumroad.com/l/etf-dashboard?utm_source=github&utm_medium=referral) - 自動財報分析、評分系統、歷史回測與每日更新。
